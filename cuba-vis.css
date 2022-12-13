@@ -1,0 +1,233 @@
+*{
+margin:0; 
+padding:0;
+box-sizing: border-box;
+}
+
+#index{
+font-family: arial;
+background-image: url('img/fondo.png');
+}
+
+#principal{
+    font-family: arial;
+    width: 100%;
+    background-image: url('img/fondo.png'); 
+    background-position: 0px 0px;
+    
+}
+
+#hC{
+    background-image: url('img/3.png'); 
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    margin: 0;
+
+}
+
+.header{
+    background-color: white ;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.nav-link {
+    color: #30b39f;
+    text-decoration: none;
+    
+}
+
+.logo{
+font-size: 30px;
+font-weight: bold;
+padding: 0 40px;
+line-height: 60px;
+
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 15px;
+    margin: 0 1px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: #30b39f;
+    transition: 0.5s;
+
+
+}
+
+#formulario{
+    text-align: right;
+    height: 3px;
+    margin: 0px;
+    width: 95%;
+}
+
+#formulario h1{
+    text-align: left;
+    margin-right: 40px;
+    margin: 50px;
+    width: 20%;
+    margin-top: 180px;
+
+}
+
+.form-principal{
+    width: 1302px;
+    height: 69px;
+    background: white;
+    background-repeat: repeat-y;
+    box-shadow: 1px 1px 200px;
+    padding: 5px 6px;
+}  
+
+.crear-HistoriaC{
+    width: 1302px;
+    height: 69px;
+    background: white;
+    background-repeat: repeat-y;
+    box-shadow: 1px 1px 200px;
+    padding: 5px 6px; 
+}
+
+#form3{
+   margin: 30px; 
+   margin-top: 140px;
+
+}
+
+
+
+.control1{
+    width: 20%;
+    border: 1px solid #34C1AD;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight:bold;
+    border-radius: 30px;
+
+}
+
+.button1{
+    width: 7%;
+    height: 40px;
+    background: #34C1AD;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 30px; 
+    
+       
+}
+.button1:hover{
+    background: #30b39f;
+}
+
+.errores{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    
+    background: red;
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    margin-top: -18px;
+    margin-left: 340px;
+    padding: 10px;
+    position: absolute;
+}
+
+#form-login{
+    width: 400px;
+    height: 340px;
+    margin: 100px; 
+
+}
+
+.form-principal h1{
+    margin: 0;
+    margin-left: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 180px; 
+    font-size: 3pc; 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+    
+#form-login label{
+margin: 0;
+margin-left: 20px;
+height: 30px;
+font-size: 20px;
+}
+
+.controls{
+width: 100%;
+border: 1px solid #34C1AD;
+margin-bottom: 15px;
+padding: 11px 10px;
+background: white;
+font-size: 14px;
+font-weight:bold;
+border-radius: 30px;
+}
+
+
+.buttons{
+width: 100%;
+height: 40px;
+background: #34C1AD;
+border: none;
+color: white;
+margin-bottom: 16px;
+border-radius: 30px;
+}
+
+.buttons:hover{
+    background: #30b39f;
+}
+
+#form-login p{
+    height: 4opx;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#form-login a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+#form-login a:hover{
+    text-decoration: underline;
+}
